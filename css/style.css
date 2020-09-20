@@ -31,7 +31,11 @@ html, body {
 }
 
 .carousel__photo__container.active {
+    position: absolute;
     display: inline-block;
+    width: 100%;
+    height: 88%;
+
 }
 
 #image1 {
