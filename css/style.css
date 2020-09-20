@@ -26,6 +26,14 @@ html, body {
     height: 88%;
 }
 
+.carousel__photo__container.prev {
+    display: none;
+}
+
+.carousel__photo__container.active {
+    display: inline-block;
+}
+
 #image1 {
     background-image: url(../assets/woman1.jpg);
     background-size: contain;
