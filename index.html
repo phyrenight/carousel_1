@@ -5,21 +5,48 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
     </head>
     <body>
         <header>
             <h1 class="header__title">Carousel 1</h1>
         </header>
-        <main class="carousel--wrapper">
+        <main class="carousel__wrapper">
         <section class="carousel">
-            <div class="carousel__photo initial"></div>
-            <div class="carousel__photo"></div>
-            <div class="carousel__photo"></div>
-            <div class="carousel__photo"></div>
-            <div class="carousel__photo"></div>
-            <span class="carousel__button--next">&#60;</span>
-            <span class="carousel__button--prev">&#62;</span>
+            <div class="carousel__photo__container initial">
+                <div class="carousel__photo" id="image1">
+                    <span class="carousel__text carousel__text--big carousel__text--upper--left">Image title 1</span>
+                    <span class="carousel__text carousel__text--lower--right">Some text</span>
+                </div>
+            </div>
+            <div class="carousel__photo__container">
+                <div class="carousel__photo" id="image2">
+                    <span class="carousel__text carousel__text--big carousel__text--upper--left">Image title 2</span>
+                    <span class="carousel__text carousel__text--lower--right">Some text</span>
+                </div>
+            </div>
+            <div class="carousel__photo__container">
+                <div class="carousel__photo" id="image3">
+                    <span class="carousel__text carousel__text--big carousel__text--upper--left">Image title 3</span>
+                    <span class="carousel__text carousel__text--lower--right">Some text about image 3</span>
+                </div>
+            </div>
+            <div class="carousel__photo__container">
+                <div class="carousel__photo" id="image4">
+                    <span class="carousel__text carousel__text--big carousel__text--upper--left">Image title 4</span>
+                    <span class="carousel__text carousel__text--lower--right">Some text about image 4</span>
+                </div>
+            </div>
+            <div class="carousel__photo__container">
+                <div class="carousel__photo" id="image5">
+                    <span class="carousel__text carousel__text--big carousel__text--upper--left">Image title 5</span>
+                    <span class="carousel__text carousel__text--lower--right">Some text about image 5</span>
+                </div>
+            </div>
+            <span class="carousel__button--next"></span>
+            <span class="carousel__button--prev"></span>
         </section>
         </main>
+        <script src="js/app.js"></script>
     </body>
 </html>
