@@ -45,6 +45,34 @@ html, body {
     background-position: center;
 }
 
+#image2 {
+    background-image: url(../assets/woman1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image3 {
+    background-image: url(../assets/woman1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image4 {
+    background-image: url(../assets/woman1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#image5 {
+    background-image: url(../assets/woman1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .carousel__text {
     position: absolute;
     font-size: 25px;
